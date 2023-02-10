@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page style</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+        }
+        #nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #nav ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #nav ul li{
+            margin: 5px 20px;
+            font-size: 23px;
+            list-style: none;
+            color: black;
+        }
+        #nav img{
+            width: 150px;
+            margin: 16px 29px;
+            color: black;
+            filter: invert(100%);
+            margin: 5 30px;
+        }
+        #nav button{
+            font-weight: bold;
+            color: white;
+            padding: 10px 28px;
+            background-color: blue;
+            outline: none;
+            border: none;
+            font-size: 19px;
+            margin: 5px 38px;
+            border-radius: 5px;
+        }
+        #home{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #home1{
+            padding: 100px;
+            width: 700px;
+        }
+        #home h1{
+            font-size: 60px;
+        }
+        #home p{
+            margin: 30px 0;
+            color: rgb(96 89 89);
+        }
+        #home1 button{
+            font-weight: bold;
+            color: white;
+            padding: 10px 28px;
+            background-color: blue;
+            outline: none;
+            border: none;
+            font-size: 19px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #home h1 span{
+            color: blue;
+        }
+        #home div img{
+            margin-top: -220px;
+            padding: 55px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div>
+            
+            <ul>
+                <li><img src="./white-logo.png" alt=""></li>
+                <li>Our Menu</li>
+                <li>Maps</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div><Button>Order</Button></div>
+    </div>
+    <div id="home">
+        <div  id="home1">
+            <h1>We Help You <span>Crush</span> Your Competition</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima aperiam repellat facere sunt blanditiis dolor exercitationem illo non?</p>
+            <div><Button>Read Our Menu</Button></div>
+        </div>
+        <div id="home2"><img src="./my_photo.png" alt=""></div>
+    </div>
+</body>
+</html>
